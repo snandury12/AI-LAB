@@ -174,7 +174,7 @@ public class Matching {
 			for(int i = 0; i < BEST_COUNT; i++) {
 				tempMatchs.get(i);
 				if(tempMatchs.get(i).matchSet.size() != 0) {
-					str += tempMatchs.get(i).getSet2().getName() + " ---- " + tempMatchs.get(i).getMatchSet() + "\n";
+					str += i+1 + ". " + tempMatchs.get(i).getSet2().getName() + " ---- " + tempMatchs.get(i).getMatchSet() + "\n";
 				}
 			}
 		}
