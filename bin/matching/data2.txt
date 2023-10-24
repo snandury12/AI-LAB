@@ -1,0 +1,4 @@
+Jay : PMP, C++, UML
+Sri : JAVA, GIT, UML
+Lucy : Management, TOGAF, Python
+Ram : JAVA, OOD, Python

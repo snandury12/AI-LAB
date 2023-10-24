@@ -38,10 +38,11 @@ public class Matching {
 			BEST_COUNT = Integer.parseInt(args[2]);
 		}
 		
+		System.out.println("MATCHING PROBLEM\n");
 		for(int i = 0; i < args.length; i++) {
 			System.out.println(args[i]);
 		}
-		
+		System.out.println("\n");
 		
 		Matching matching = new Matching();
 		
@@ -180,8 +181,6 @@ public class Matching {
 				tempMatchs.get(i);
 				if(tempMatchs.get(i).matchSet.size() != 0) {
 					str += tempMatchs.get(i).getSet2().getName() + " ---- " + tempMatchs.get(i).getMatchSet() + "\n";
-					//System.out.println("# " + i + " " + tempMatchs.get(i).getSet1().getName());
-					//System.out.println(tempMatchs.get(i).getSet2().getName() + " ---- " + tempMatchs.get(i).getMatchSet());
 				}
 			}
 		}
@@ -189,34 +188,3 @@ public class Matching {
 		return str;
 	}
 }//class ends
-
-
-/*// adding jobs
-ArrayList<SetObj> Set1 = new ArrayList<SetObj>();
-Set<String> hash = new HashSet<>(Arrays.asList("OOD", "TOGAF"));
-SetObj j1 = new SetObj("Architect", hash);
-Set1.add(j1);
-hash = new HashSet<>(Arrays.asList("JAVA", "C++", "Python"));
-SetObj j2 = new SetObj("Developer", hash);
-Set1.add(j2);
-hash = new HashSet<>(Arrays.asList("management", "pmp"));
-SetObj j3 = new SetObj("program manager", hash);
-Set1.add(j3);
-hash = new HashSet<>(Arrays.asList("UML", "Lucid Chart", "Git"));
-SetObj j4 = new SetObj("Designer", hash);
-Set1.add(j4);
-
-// adding candidates
-ArrayList<SetObj> Set2 = new ArrayList<SetObj>();
-hash = new HashSet<>(Arrays.asList("OOD", "JAVA", "Python"));
-SetObj c1 = new SetObj("Ram", hash);
-Set2.add(c1);
-hash = new HashSet<>(Arrays.asList("JAVA", "UML", "Git"));
-SetObj c2 = new SetObj("Sri", hash);
-Set2.add(c2);
-hash = new HashSet<>(Arrays.asList("management", "TOGAF", "Python"));
-SetObj c3 = new SetObj("Lucy", hash);
-Set2.add(c3);
-hash = new HashSet<>(Arrays.asList("UML", "pmp", "C++"));
-SetObj c4 = new SetObj("Jay", hash);
-Set2.add(c4);*/
