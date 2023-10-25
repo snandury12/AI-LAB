@@ -34,3 +34,8 @@ Approach:
 
 
 Git location for source code: https://github.com/snandury12/AI-LAB.git
+
+Known Issues:
+- The generated data file must be manually posted in the graphics data.
+- Needs further graphical beautification.
+
