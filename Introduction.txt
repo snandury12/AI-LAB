@@ -1,0 +1,36 @@
+﻿MATCHING/RECOMMENDATION PROBLEM
+
+
+Problem Statement: 
+The program shall create matching between two sets, and show the best matches between those two sets.
+
+
+Possible Solution:
+Creating a solution in Java.
+
+
+Data Assumption: 
+To create a match between the sets, each element must require certain attributes to describe its nature, having common attributes creates a matching between each set's elements with another set’s elements.
+For example- 
+Dataset 1: Job titles and Skills required for the job
+Dataset 2: Candidates and their skillset
+
+
+Approach: 
+        Pseudocode- 
+1. Load Data Set 1
+2. Load Data Set 2
+3. Match Data sets
+4. Sort Both sets
+5. Identify the best matches
+
+
+        Graphical Representation of Data-
+                        The result data(best matches for each element of the one dataset against the other dataset) i.e. the resultant data set:-
+
+
+  
+
+
+
+Git location for source code: https://github.com/snandury12/AI-LAB.git
