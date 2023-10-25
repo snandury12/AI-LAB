@@ -1,4 +1,4 @@
-JpMorgan, Architect : OOD, TOGAF
+Architect : OOD, TOGAF
 Developer : JAVA, C++, Python
 Program Manager : Management, PMP
 Designer :Lucid Chart, Git, UML

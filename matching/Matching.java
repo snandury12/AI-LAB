@@ -1,5 +1,5 @@
 /**
- * @author Sri
+ * @author Sri Nandury
  */
 package matching;
 
@@ -56,9 +56,9 @@ public class Matching {
 	}//main ends
 	
 	/**
-	 * 
+	 * loads data from the text file
 	 * @param fileName
-	 * @return
+	 * @return arraylist of the data
 	 */
 	public ArrayList<DataSet> loadData(String fileName) {
 		ArrayList<DataSet> arraySet = new ArrayList<DataSet>();
@@ -88,10 +88,10 @@ public class Matching {
 	}
 
 	/**
-	 * 
+	 * matches/compares the datasets to create a match
 	 * @param arrDataSet1
 	 * @param arrDataSet2
-	 * @return
+	 * @return hashmap of the dataset and its attribute class
 	 */
 	public HashMap<DataSet, ArrayList<Matches>> matchData(ArrayList<DataSet> arrDataSet1, ArrayList<DataSet> arrDataSet2)
 	{
@@ -124,7 +124,7 @@ public class Matching {
 	}
 	
 	/**
-	 * 
+	 * sorts the data from best to least matches
 	 * @param hashmapMatches
 	 */
 	public void sortData(HashMap<DataSet, ArrayList<Matches>> hashmapMatches) {
@@ -142,7 +142,7 @@ public class Matching {
 	
 	
 	/**
-	 * 
+	 * Displays all the matching sets
 	 * @param hashmapMatches
 	 */
 	public void display(HashMap<DataSet, ArrayList<Matches>> hashmapMatches) {
@@ -157,7 +157,7 @@ public class Matching {
 	}
 	
 	/**
-	 * 
+	 * displays the top best matches for the set
 	 * @param matchedData
 	 */
 	private String displayBestMatches(HashMap<DataSet, ArrayList<Matches>> matchedData) {
